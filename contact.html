@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            /* background: #f4e7d5; */
+            background: no-repeat;
+            background: linear-gradient(#abd5f7 0.10%, #ffff 100%);
+            box-sizing: border-box;
+        }
+
+        .contact-list li i {
+            color: #218838;
+
+        }
+
+        form input {
+            display: block;
+        }
+
+        form textarea {
+            display: block;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- MOBILE SCREEN -->
+    <input type="checkbox" id="menu">
+    <!-- END MOBILE SCREEN -->
+    <header>
+        <div class="mainlogo">
+            <h1>
+                <div class="mainlogo">
+                    <label for="menu" class="menuLabel">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </label>
+                    <a href="index.html"> <b class="text-shdow"> DeepCart </b> </a>
+                </div>
+            </h1>
+        </div>
+
+
+        </div>
+
+        <!-- END MOBILE SCREEN -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+
+                <li><a href="#">Products <i class="fa fa-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#scrollMobile">Mobile Phones</a></li>
+                        <li><a href="#scrollFashion">Fashion</a></li>
+                        <li><a href="#scrollSports">Sports</a></li>
+                        <li><a href="#scrollElectronic">Electronic</a></li>
+                        <li><a href="#scrollCosmetic">Cosmetic</a></li>
+                    </ul>
+                </li>
+                <li><a href="cart.html">Cart</a></li>
+
+                <li class="active">
+                    <a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <div class="mainlogo">
+
+            <span class="logo1st"><a href="login.html"> <i class="fa fa-user-circle"></i> Login</a></span>
+        </div>
+    </header>
+    <div>
+        <div class="contact-us">
+            <h1>Contact Us</h1>
+        </div>
+
+        <div class="flexdd">
+            <div class="contact-mag">
+                <h2>Send us a message</h2>
+                <div class="contact-list">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="cdae5e6c-4316-4ffd-aa5f-af74189f0b66">
+                        <input type="text" name="Name" placeholder="Your Name" size="30px"> <br>
+                        <input type="email" name="E-mail" placeholder="Your E-mail" size="30px"> <br>
+                        <textarea name="Message" placeholder="Your Message"></textarea>
+                        <!-- <input type="text" name="Message" placeholder="Your Message" size="30px"> <br> -->
+                        <a href="index.html"><button>Back</button></a>
+                        <button type="submit">Send</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="contact-mag">
+                <h2>Contact Information</h2>
+                <div class="contact-list-end">
+                    <li><i class="fa fa-phone"> </i> +12345678</li>
+                    <li> <i class="fa fa-envelope"> </i> ajeetgautam8052@gmail.com</li>
+                    <li> <i class="fa fa-map-marker"> </i> Lucknow up</li>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="">
+            <h3>&copy; E-Commerce Store</h3>
+        </div>
+        <div class="endoff">
+            <div class="nav1">
+                <h3>Connect Me</h3>
+                <span><a href="#"><i class="fa fa-whatsapp"> </i> Whatsapp</a></span>
+                <span><a href="#"><i class="fa fa-instagram"> </i> Instagram</a></span>
+                <span><a href="#"><i class="fa fa-facebook"> </i> Facebook</a></span>
+                <span><a href="#"><i class="fa fa-envelope"> </i> &copy;E-mail</a></span>
+            </div>
+
+            <div class="nav1">
+                <h3>Connect Me</h3>
+                <span><a href="#"><i class="fa fa-whatsapp"> </i> Whatsapp</a></span>
+                <span><a href="#"><i class="fa fa-instagram"> </i> Instagram</a></span>
+                <span><a href="#"><i class="fa fa-facebook"> </i> Facebook</a></span>
+                <span><a href="#"><i class="fa fa-envelope"> </i> &copy;E-mail</a></span>
+            </div>
+            <div class="nav1">
+                <h3>Address || Location</h3>
+                <p>
+                    <a href="#">
+                        SR Group of Institutione, <br>
+                        bkt,Bhashamau,Lucknow ,227202
+                    </a>
+                </p>
+            </div>
+        </div>
+
+
+        <div class="color1">
+            <p>&copy; 2025 My E-Commerce Store</p>
+        </div>
+    </div>
+</body>
+
+</html>
