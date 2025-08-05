@@ -1,11 +1,11 @@
 // Sample products
 const products = [
-  { id: 1, name: 'Laptop', price: 999.99, image: 'images\dumble.jpg' },
-  { id: 2, name: 'Smartphone', price: 499.99, image: 'images\boll.webp' },
-  { id: 3, name: 'Headphones', price: 79.99, image: 'images\garnier.jpg' },
-  { id: 1, name: 'Laptop', price: 999.99, image: 'images\CMF Phone.webp' },
-  { id: 2, name: 'Smartphone', price: 499.99, image: 'images\fair.webp' },
-  { id: 3, name: 'Headphones', price: 79.99, image: 'images\garnier.jpg' },
+  { id: 1, name: 'Laptop', price: 999.99, image: 'images/dumble.jpg' },
+  { id: 2, name: 'Smartphone', price: 499.99, image: 'images/boll.webp' },
+  { id: 3, name: 'Headphones', price: 79.99, image: 'images/garnier.jpg' },
+  { id: 1, name: 'Laptop', price: 999.99, image: 'images/CMF Phone.webp' },
+  { id: 2, name: 'Smartphone', price: 499.99, image: 'images/fair.webp' },
+  { id: 3, name: 'Headphones', price: 79.99, image: 'images/garnier.jpg' },
 ];
 
 // Cart array
@@ -107,4 +107,5 @@ closeCart.addEventListener('click', () => {
 });
 
 // Initialize
+
 renderProducts();
